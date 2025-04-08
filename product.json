@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "name": "Wireless Mouse",
+      "price": 50,
+      "image": "/mouse2.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Keyboard",
+      "price": 40,
+      "image": "/keyboard.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Laptop Stand",
+      "price": 50,
+      "image": "/laptop-stand.jpg"
+    }
+  ]

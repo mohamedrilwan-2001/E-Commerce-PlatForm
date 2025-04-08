@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+<div class="container">
+    <div class="checkoutLayout">
+        <div class="returnCart">
+            <a href="e-commerce.html">Keep shopping</a>
+            <h1>List Products in Cart</h1>
+            <div class="list" id="cartList">
+                <div class="checkoutItems">
+                <!-- Cart items will be dynamically inserted here -->
+                </div>
+            </div>
+        </div>
+
+        <div class="right">
+            <h1>CHECKOUT</h1>
+            <div class="form">
+                <div class="group">
+                    <label for="">Full Name</label>
+                    <input type="text" id="fullName">
+                </div>
+                <div class="group">
+                    <label for="phoneNumber">Phone Number</label>
+                    <input type="text" id="phoneNumber">
+                </div>
+                <div class="group">
+                    <label for="address">Address</label>
+                    <input type="text" id="address">
+                </div>
+                <div class="group">
+                    <label for="country">Country</label>
+                    <select id="country">
+                        <option value="">Choose..</option>
+                        <option value="london">London</option>
+                    </select>
+                </div>
+                <div class="group">
+                    <label for="city">City</label>
+                    <select id="city">
+                        <option value="">Choose..</option>
+                        <option value="london">London</option>
+                    </select>
+                </div>
+            </div>
+            <!--totals section-->
+            <div class="return">
+                <div class="row">
+                    <div>Total Quantity:</div>
+                    <div><span class="totalQuantity" id="totalQuantity">0</span></div>
+                </div>
+                <div class="row">
+                    <div>Total Price:</div>
+                    <div><span class="totalPrice" id="totalPrice">$0.00</span></div>
+                </div>
+            </div>
+            <button class="buttonCheckout" id="checkoutButton">
+                CHECKOUT
+            </button>
+        </div>
+    </div>
+</div>
+
+<script src="checkout.js"></script>
+</body>
+</html>
